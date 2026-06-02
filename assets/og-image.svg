@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="g" cx="80%" cy="0%" r="90%">
+      <stop offset="0%" stop-color="#e82127" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#0b0b0f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0b0b0f"/>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <path d="M600 150c-39 0-72.5 12-72.5 12l10.5 21.5s22-8 35.5-9.5l4 12c-18 2-35 8-35 8L600 330l57.5-134s-17-6-35-8l4-12c13.5 1.5 35.5 9.5 35.5 9.5L672.5 162S639 150 600 150z" fill="#e82127"/>
+  <text x="600" y="420" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="64" font-weight="800" fill="#f5f5f7" text-anchor="middle" letter-spacing="-1">Tesla Rabatkode</text>
+  <text x="600" y="478" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="30" fill="#a1a1aa" text-anchor="middle">Spar penge på din nye Tesla — brug min henvisningskode</text>
+</svg>
