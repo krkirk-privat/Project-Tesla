@@ -883,4 +883,40 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>https://tesla-rabatkode.dk/guides/tesla-reel-raekkevidde/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://tesla-rabatkode.dk/guides/tesla-reel-raekkevidde/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tesla-rabatkode.dk/en/guides/tesla-real-world-range/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tesla-rabatkode.dk/guides/tesla-reel-raekkevidde/" />
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tesla-rabatkode.dk/en/guides/tesla-real-world-range/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://tesla-rabatkode.dk/guides/tesla-reel-raekkevidde/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tesla-rabatkode.dk/en/guides/tesla-real-world-range/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tesla-rabatkode.dk/guides/tesla-reel-raekkevidde/" />
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tesla-rabatkode.dk/guides/tesla-bagagerum-plads/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://tesla-rabatkode.dk/guides/tesla-bagagerum-plads/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tesla-rabatkode.dk/en/guides/tesla-cargo-space/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tesla-rabatkode.dk/guides/tesla-bagagerum-plads/" />
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tesla-rabatkode.dk/en/guides/tesla-cargo-space/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://tesla-rabatkode.dk/guides/tesla-bagagerum-plads/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tesla-rabatkode.dk/en/guides/tesla-cargo-space/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tesla-rabatkode.dk/guides/tesla-bagagerum-plads/" />
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
