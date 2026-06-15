@@ -451,4 +451,40 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://tesla-rabatkode.dk/guides/tesla-software-opdateringer/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://tesla-rabatkode.dk/guides/tesla-software-opdateringer/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tesla-rabatkode.dk/en/guides/tesla-software-updates/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tesla-rabatkode.dk/guides/tesla-software-opdateringer/" />
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tesla-rabatkode.dk/en/guides/tesla-software-updates/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://tesla-rabatkode.dk/guides/tesla-software-opdateringer/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tesla-rabatkode.dk/en/guides/tesla-software-updates/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tesla-rabatkode.dk/guides/tesla-software-opdateringer/" />
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tesla-rabatkode.dk/guides/tesla-app-funktioner/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://tesla-rabatkode.dk/guides/tesla-app-funktioner/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tesla-rabatkode.dk/en/guides/tesla-app-features/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tesla-rabatkode.dk/guides/tesla-app-funktioner/" />
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tesla-rabatkode.dk/en/guides/tesla-app-features/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://tesla-rabatkode.dk/guides/tesla-app-funktioner/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tesla-rabatkode.dk/en/guides/tesla-app-features/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tesla-rabatkode.dk/guides/tesla-app-funktioner/" />
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
