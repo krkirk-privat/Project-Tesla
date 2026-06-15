@@ -307,4 +307,40 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://tesla-rabatkode.dk/guides/tesla-raekkevidde-vinter/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://tesla-rabatkode.dk/guides/tesla-raekkevidde-vinter/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tesla-rabatkode.dk/en/guides/tesla-winter-range/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tesla-rabatkode.dk/guides/tesla-raekkevidde-vinter/" />
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tesla-rabatkode.dk/en/guides/tesla-winter-range/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://tesla-rabatkode.dk/guides/tesla-raekkevidde-vinter/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tesla-rabatkode.dk/en/guides/tesla-winter-range/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tesla-rabatkode.dk/guides/tesla-raekkevidde-vinter/" />
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tesla-rabatkode.dk/guides/tesla-afgift-danmark/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://tesla-rabatkode.dk/guides/tesla-afgift-danmark/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tesla-rabatkode.dk/en/guides/tesla-registration-tax-denmark/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tesla-rabatkode.dk/guides/tesla-afgift-danmark/" />
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tesla-rabatkode.dk/en/guides/tesla-registration-tax-denmark/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://tesla-rabatkode.dk/guides/tesla-afgift-danmark/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tesla-rabatkode.dk/en/guides/tesla-registration-tax-denmark/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tesla-rabatkode.dk/guides/tesla-afgift-danmark/" />
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
