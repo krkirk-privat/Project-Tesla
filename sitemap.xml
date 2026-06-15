@@ -703,4 +703,40 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://tesla-rabatkode.dk/guides/tesla-road-trip-planlaegning/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://tesla-rabatkode.dk/guides/tesla-road-trip-planlaegning/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tesla-rabatkode.dk/en/guides/tesla-road-trip-planning/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tesla-rabatkode.dk/guides/tesla-road-trip-planlaegning/" />
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tesla-rabatkode.dk/en/guides/tesla-road-trip-planning/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://tesla-rabatkode.dk/guides/tesla-road-trip-planlaegning/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tesla-rabatkode.dk/en/guides/tesla-road-trip-planning/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tesla-rabatkode.dk/guides/tesla-road-trip-planlaegning/" />
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tesla-rabatkode.dk/guides/tesla-batteripleje/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://tesla-rabatkode.dk/guides/tesla-batteripleje/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tesla-rabatkode.dk/en/guides/tesla-battery-care/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tesla-rabatkode.dk/guides/tesla-batteripleje/" />
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tesla-rabatkode.dk/en/guides/tesla-battery-care/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://tesla-rabatkode.dk/guides/tesla-batteripleje/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tesla-rabatkode.dk/en/guides/tesla-battery-care/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tesla-rabatkode.dk/guides/tesla-batteripleje/" />
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
