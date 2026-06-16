@@ -505,3 +505,46 @@ table.spec td:first-child, table.spec th:first-child { color: var(--text); font-
   color: var(--text); font-weight: 600; transition: border-color 0.15s, transform 0.15s;
 }
 .related a:hover { border-color: var(--accent); transform: translateX(4px); }
+
+
+/* ---- Guides hub: grouped sections, jump-nav, featured strip ---- */
+.hub-jump {
+  position: sticky; top: 64px; z-index: 40;
+  background: rgba(11, 11, 15, 0.82); backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+}
+.hub-jump .container {
+  height: auto; justify-content: flex-start; flex-wrap: wrap; gap: 8px;
+  padding-top: 12px; padding-bottom: 12px;
+}
+.hub-jump a {
+  font-size: 0.85rem; padding: 7px 13px; border-radius: 999px;
+  border: 1px solid var(--border); color: var(--text-dim); white-space: nowrap;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+.hub-jump a:hover, .hub-jump a:focus-visible {
+  color: var(--text); border-color: var(--accent); background: var(--accent-soft);
+}
+.guide-section { padding: 26px 0; scroll-margin-top: 128px; }
+.guide-section.featured-section { padding-top: 40px; }
+.section-head {
+  display: flex; align-items: baseline; gap: 12px;
+  max-width: var(--maxw); margin: 0 auto 6px;
+  border-bottom: 1px solid var(--border); padding-bottom: 12px;
+}
+.section-head h2 {
+  font-size: clamp(1.3rem, 3vw, 1.7rem); margin: 0;
+  font-weight: 800; letter-spacing: -0.01em;
+}
+.section-head .count { color: #71717a; font-size: 0.9rem; font-weight: 500; }
+.section-intro {
+  color: var(--text-dim); max-width: var(--maxw);
+  margin: 0 auto 20px; font-size: 0.98rem;
+}
+.featured-grid {
+  display: grid; gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  max-width: var(--maxw); margin: 0 auto;
+}
+.guide-card.featured { border-color: rgba(232, 33, 39, 0.45); }
+.guide-card.featured:hover { border-color: var(--accent); }
