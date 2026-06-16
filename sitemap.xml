@@ -991,4 +991,22 @@
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>https://tesla-rabatkode.dk/privatliv/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://tesla-rabatkode.dk/privatliv/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tesla-rabatkode.dk/en/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tesla-rabatkode.dk/privatliv/" />
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://tesla-rabatkode.dk/en/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://tesla-rabatkode.dk/privatliv/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tesla-rabatkode.dk/en/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tesla-rabatkode.dk/privatliv/" />
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
 </urlset>
