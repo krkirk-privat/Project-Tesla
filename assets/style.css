@@ -587,6 +587,13 @@ img { max-width: 100%; }
   border-radius: var(--radius); border: 1px solid var(--border);
   background: var(--bg-elev);
 }
+figure.hero-media { margin: 0; }
+.hero-media video {
+  width: 100%; height: auto; display: block;
+  border-radius: var(--radius); border: 1px solid var(--border);
+  background: var(--bg-elev); aspect-ratio: 4 / 5; object-fit: cover;
+}
+@media (max-width: 899px) { .hero-media video { aspect-ratio: 16 / 10; } }
 @media (min-width: 900px) {
   .hero-split .hero-grid { grid-template-columns: minmax(0, 1.04fr) minmax(0, 0.96fr); }
   .hero-split { padding-top: 64px; }
