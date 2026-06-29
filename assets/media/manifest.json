@@ -444,13 +444,13 @@
     "h": 678
   },
   {
-    "name": "tesla-modelx",
-    "file": "tesla-modelx.mp4",
+    "name": "tesla-hero",
+    "file": "tesla-hero.mp4",
     "category": "video_driving",
     "type": "video",
-    "author": "Foster",
+    "author": "mygiguser",
     "license": "Pexels License",
-    "source_page_url": "https://www.pexels.com/video/sleek-tesla-model-x-in-urban-environment-34194673/",
+    "source_page_url": "https://www.pexels.com/video/autonomous-electric-car-on-scenic-drive-33016018/",
     "credit_required": false
   }
 ]

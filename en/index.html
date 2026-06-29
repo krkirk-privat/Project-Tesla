@@ -113,8 +113,13 @@
 
   <main>
     <!-- Hero -->
-    <section class="hero hero-split">
-      <div class="container hero-grid">
+    <section class="hero hero-cine">
+      <div class="hero-bg" aria-hidden="true">
+        <video data-ambient data-force-autoplay autoplay muted loop playsinline preload="auto" poster="../assets/media/ext-model3-road.jpg">
+          <source src="../assets/media/tesla-hero.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="container hero-cine-inner">
         <div class="hero-copy">
           <span class="eyebrow">Tesla referral code</span>
           <h1>Save money on your new Tesla</h1>
@@ -141,11 +146,6 @@
             <a class="btn btn-ghost" href="#how">How it works</a>
           </div>
         </div>
-        <figure class="hero-media">
-          <video data-ambient data-force-autoplay autoplay muted loop playsinline preload="auto" poster="../assets/media/ext-model3-road.jpg" aria-label="Tesla Model X">
-            <source src="../assets/media/tesla-modelx.mp4" type="video/mp4" />
-          </video>
-        </figure>
       </div>
     </section>
 
