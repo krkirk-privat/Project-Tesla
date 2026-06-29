@@ -78,24 +78,27 @@
     var reduce =
       window.matchMedia &&
       window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (reduce) {
-      vids.forEach(function (v) {
-        try { v.removeAttribute("autoplay"); v.pause(); } catch (e) {}
-      });
-      return;
-    }
     /* The HTML carries a native `autoplay` attribute; this just nudges play
        across the events where browsers sometimes hold muted video-only media. */
     var nudge = function (v) {
       try { v.muted = true; var p = v.play(); if (p && p.catch) p.catch(function () {}); } catch (e) {}
     };
+    /* Decorative clips honor prefers-reduced-motion (poster only). Clips marked
+       data-force-autoplay (the hero) always play, regardless of that setting. */
+    var active = [];
     vids.forEach(function (v) {
+      if (reduce && !v.hasAttribute("data-force-autoplay")) {
+        try { v.removeAttribute("autoplay"); v.pause(); } catch (e) {}
+        return;
+      }
+      active.push(v);
       nudge(v);
       v.addEventListener("loadeddata", function () { nudge(v); });
       v.addEventListener("canplay", function () { nudge(v); });
     });
+    if (!active.length) return;
     document.addEventListener("visibilitychange", function () {
-      if (!document.hidden) vids.forEach(nudge);
+      if (!document.hidden) active.forEach(nudge);
     });
     if ("IntersectionObserver" in window) {
       var io = new IntersectionObserver(
@@ -107,7 +110,7 @@
         },
         { threshold: 0.1 }
       );
-      vids.forEach(function (v) { io.observe(v); });
+      active.forEach(function (v) { io.observe(v); });
     }
   })();
 
