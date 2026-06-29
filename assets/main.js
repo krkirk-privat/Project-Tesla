@@ -69,6 +69,38 @@
     reveals.forEach(function (el) { el.classList.add("visible"); });
   }
 
+  /* ---- Ambient background videos ----
+     Muted, looping, decorative video. We respect prefers-reduced-motion
+     (stays on the poster), and only play while the clip is in view. */
+  (function () {
+    var vids = document.querySelectorAll("video[data-ambient]");
+    if (!vids.length) return;
+    var reduce =
+      window.matchMedia &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduce) {
+      vids.forEach(function (v) {
+        try { v.removeAttribute("autoplay"); v.pause(); } catch (e) {}
+      });
+      return;
+    }
+    var play = function (v) { var p = v.play && v.play(); if (p && p.catch) p.catch(function () {}); };
+    if (!("IntersectionObserver" in window)) {
+      vids.forEach(play);
+      return;
+    }
+    var io = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) play(e.target);
+          else e.target.pause && e.target.pause();
+        });
+      },
+      { threshold: 0.25 }
+    );
+    vids.forEach(function (v) { io.observe(v); });
+  })();
+
   /* ---- Analytics (GA4) behind an opt-in consent gate ----
      Nothing from Google loads until the visitor clicks Allow. The choice is
      remembered in localStorage; it can be changed from the privacy page. */
