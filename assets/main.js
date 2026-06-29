@@ -84,21 +84,31 @@
       });
       return;
     }
-    var play = function (v) { var p = v.play && v.play(); if (p && p.catch) p.catch(function () {}); };
-    if (!("IntersectionObserver" in window)) {
-      vids.forEach(play);
-      return;
+    /* The HTML carries a native `autoplay` attribute; this just nudges play
+       across the events where browsers sometimes hold muted video-only media. */
+    var nudge = function (v) {
+      try { v.muted = true; var p = v.play(); if (p && p.catch) p.catch(function () {}); } catch (e) {}
+    };
+    vids.forEach(function (v) {
+      nudge(v);
+      v.addEventListener("loadeddata", function () { nudge(v); });
+      v.addEventListener("canplay", function () { nudge(v); });
+    });
+    document.addEventListener("visibilitychange", function () {
+      if (!document.hidden) vids.forEach(nudge);
+    });
+    if ("IntersectionObserver" in window) {
+      var io = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (e) {
+            if (e.isIntersecting) nudge(e.target);
+            else if (e.target.pause) e.target.pause();
+          });
+        },
+        { threshold: 0.1 }
+      );
+      vids.forEach(function (v) { io.observe(v); });
     }
-    var io = new IntersectionObserver(
-      function (entries) {
-        entries.forEach(function (e) {
-          if (e.isIntersecting) play(e.target);
-          else e.target.pause && e.target.pause();
-        });
-      },
-      { threshold: 0.25 }
-    );
-    vids.forEach(function (v) { io.observe(v); });
   })();
 
   /* ---- Analytics (GA4) behind an opt-in consent gate ----

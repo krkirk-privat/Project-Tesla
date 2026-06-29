@@ -240,9 +240,9 @@
     "file": "road-open.jpg",
     "category": "road",
     "type": "img",
-    "author": "Benjamin Brunner (@ben_brunner)",
-    "license": "Unsplash License",
-    "source_page_url": "https://unsplash.com/photos/a-white-car-driving-down-a-curvy-road-fX2Ok_75gbY",
+    "author": "David Gari",
+    "license": "Pexels License",
+    "source_page_url": "https://www.pexels.com/photo/white-tesla-model-3-car-on-road-9300916/",
     "attribution_text": "Photo by Benjamin Brunner on Unsplash (no attribution required)",
     "credit_required": false,
     "w": 1600,
@@ -444,29 +444,13 @@
     "h": 678
   },
   {
-    "name": "hero-driving",
-    "file": "hero-driving.mp4",
+    "name": "tesla-modelx",
+    "file": "tesla-modelx.mp4",
     "category": "video_driving",
     "type": "video",
-    "author": "David Tedesco",
+    "author": "Foster",
     "license": "Pexels License",
-    "source_page_url": "https://www.pexels.com/video/driving-on-highway-13371634/",
-    "attribution_text": "Video by David Tedesco from Pexels (no attribution required under the Pexels License)",
-    "credit_required": false,
-    "w": null,
-    "h": null
-  },
-  {
-    "name": "scenic",
-    "file": "scenic.mp4",
-    "category": "video_scenic",
-    "type": "video",
-    "author": "Zlatin Georgiev",
-    "license": "Pexels License (free to use, no attribution required, modification and commercial use allowed)",
-    "source_page_url": "https://www.pexels.com/video/person-driving-on-a-countryside-road-5750805/",
-    "attribution_text": "Video by Zlatin Georgiev from Pexels",
-    "credit_required": false,
-    "w": null,
-    "h": null
+    "source_page_url": "https://www.pexels.com/video/sleek-tesla-model-x-in-urban-environment-34194673/",
+    "credit_required": false
   }
 ]
