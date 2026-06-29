@@ -24,7 +24,7 @@
     <xhtml:link rel="alternate" hreflang="da" href="https://tesla-rabatkode.dk/guides/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://tesla-rabatkode.dk/en/guides/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tesla-rabatkode.dk/guides/" />
-    <lastmod>2026-06-22</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -33,7 +33,7 @@
     <xhtml:link rel="alternate" hreflang="da" href="https://tesla-rabatkode.dk/guides/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://tesla-rabatkode.dk/en/guides/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tesla-rabatkode.dk/guides/" />
-    <lastmod>2026-06-22</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1042,6 +1042,24 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://tesla-rabatkode.dk/en/guides/buy-tesla-now-or-wait/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://tesla-rabatkode.dk/guides/koeb-tesla-nu-eller-vent/" />
     <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tesla-rabatkode.dk/guides/tesla-model-y-juniper/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://tesla-rabatkode.dk/guides/tesla-model-y-juniper/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tesla-rabatkode.dk/en/guides/tesla-model-y-juniper/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tesla-rabatkode.dk/guides/tesla-model-y-juniper/" />
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tesla-rabatkode.dk/en/guides/tesla-model-y-juniper/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://tesla-rabatkode.dk/guides/tesla-model-y-juniper/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tesla-rabatkode.dk/en/guides/tesla-model-y-juniper/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tesla-rabatkode.dk/guides/tesla-model-y-juniper/" />
+    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
